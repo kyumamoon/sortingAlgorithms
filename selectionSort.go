@@ -32,7 +32,7 @@ func selectionSort(list *[]int) {
 }
 
 func main() {
-	x := []int{5, 2, 3, 1, 4, 6, 7, 21, 8, 10, 9, 15, 13, 16}
+	x := []int{4, 6, 3, 2, 9, 7, 3, 5}
 	fmt.Println(x)
 
 	selectionSort(&x)
